@@ -146,12 +146,14 @@ main > a{
 }
 
 .icon-principal li img{
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
+    padding: 16px;
+    background-color: var(--azul-marinho);
+    border-radius: 50%;
     object-fit: contain;
     margin-bottom: 10px;
 }
-
 .icon-principal h3{
     font-size: 16px;
     font-weight: normal;
@@ -174,6 +176,8 @@ main > a{
     justify-content: space-around;
     padding: 40px 5%;
     background-color: var(--branca-pura);
+    flex-direction: row;
+    overflow: visible;
 }
 
 .coluna-esquerda{
@@ -194,7 +198,7 @@ main > a{
 
 .coluna-esquerda img{
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
     height: auto;
     object-fit: contain;
 }
