@@ -217,6 +217,11 @@ main > a{
     background-color: var(--branco);
     padding: 30px;
     border-radius: 20px;
+    display: none;
+}
+
+.active{
+    display: block;
 }
 
 .form-box h2{
